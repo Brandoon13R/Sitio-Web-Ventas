@@ -1,0 +1,33 @@
+nav{
+    border: none;           /* Quita el borde por defecto */
+    height: 75px;            /* Grosor de la barra */
+    width: 100%;             /* Ancho completo */
+    background-color: #333; /* Color de la barra */
+    margin: 5px 0; 
+}
+
+nav ul {
+    list-style: none; /* Quita viñetas */
+    margin: 0;
+    padding: 0;
+    display: flex;    /* Alinea en fila */
+}
+
+/* Elementos del menú */
+nav ul li {
+    flex: 1; /* Opcional: que ocupen el mismo ancho */
+}
+
+/* Enlaces */
+nav ul li a {
+    display: block;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+/* Efecto hover */
+nav ul li a:hover {
+    background-color: #575757;
+}
